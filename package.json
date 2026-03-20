@@ -4,12 +4,13 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node dist/index.js",
-    "build": "pnpm -r --if-present run build",
+    "start": "npx tsx scripts/src/hello.ts",
+    "build": "echo build",
     "dev": "echo dev"
   },
   "devDependencies": {
     "typescript": "~5.9.2",
+    "tsx": "^4.7.0",
     "prettier": "^3.8.1"
   }
 }
