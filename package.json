@@ -1,12 +1,10 @@
 {
-  "name": "workspace",
-  "version": "0.0.0",
-  "private": true,
-  "license": "MIT",
+  "name": "seu-projeto",
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
-    "start": "npx tsx scripts/src/hello.ts",
-    "build": "echo build",
-    "dev": "echo dev"
+    "dev": "vite",
+    "build": "vite build"
   },
   "devDependencies": {
     "typescript": "~5.9.2",
